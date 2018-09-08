@@ -75,63 +75,6 @@ public class MainActivity extends AppCompatActivity {
         observable.connect();
     }
 
-    //someHot(s);
-    //
-//                String str = editText.getText().toString();
-    //Log.d("STR",String.valueOf(s));
 
-
-//                Observable<CharSequence> observable = Observable.just(s);
-//
-//                Observer<CharSequence> observer = new Observer<CharSequence>() {
-//
-//                    @Override
-//                    public void onCompleted() {
-//                        Log.d("Dto", "onCompleted");
-//                    }
-//
-//                    @Override
-//                    public void onError(Throwable e) {
-//                        Log.d("Dto", "onError");
-//                        e.printStackTrace();
-//                    }
-//
-//                    @Override
-//                    public void onNext(CharSequence s) {
-//                        Log.d("Dto", "onNext " + s);
-//                        textView.setText(s);
-//                    }
-//                };
-//                observable.subscribe(observer);
-//                ConnectableObservable<CharSequence> observable = (ConnectableObservable<CharSequence>) Observable
-//                        .just(s)
-//                        .publish();
-//                observable.connect();
-
-
-
-//        List<String> liters = Arrays.asList("a","s","d","f","g");
-//
-//        Observable<String> observable = Observable.from(liters);
-//       Observer<CharSequence> observer =  new Observer<CharSequence>() {
-//
-//            @Override
-//            public void onCompleted() {
-//                Log.d("Dto", "onCompleted");
-//            }
-//
-//            @Override
-//            public void onError(Throwable e) {
-//                Log.d("Dto", "onError");
-//                e.printStackTrace();
-//            }
-//
-//            @Override
-//            public void onNext(CharSequence s) {
-//                Log.d("Dto", "onNext " + s);
-//                textView.setText(s);
-//            }
-//        };
-//        observable.subscribe(observer);
 
 }
